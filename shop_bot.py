@@ -1,7 +1,8 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "мой токен"
+import os
+TOKEN = os.getenv("BOT_TOKEN")
 
 
 # ===============================
