@@ -1,7 +1,7 @@
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8256171705:AAH01z6TohMmVnBkk2qVx7KG81g1DA5_OM8"
+TOKEN = "мой токен"
 
 
 # ===============================
